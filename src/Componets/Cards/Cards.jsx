@@ -29,7 +29,7 @@ const Cards = () => {
        if (isExist){
         toast.warning("You already added this Course", {
             position: "top-right",
-            autoClose: 3000, // Automatically close the toast after 3 seconds
+            autoClose: 2000,
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: true,
