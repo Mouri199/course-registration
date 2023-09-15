@@ -90,7 +90,7 @@ const Cards = () => {
     return (
      <div className="flex gap-20 container mx-auto mb-10" >
         <ToastContainer/>
-           {/* <div className="grid grid-cols-3 gap-5">
+           <div className="grid grid-cols-3 gap-5">
             {
                 allCards.map(card => (
 
@@ -111,7 +111,7 @@ const Cards = () => {
                         </div>
                     </div>
                     ))}
-            </div> */}
+            </div>
             <div>
                 <Sideinfo selectedCard={selectedCard} totalCredit={totalCredit} remaining={remaining} totalPrice={totalPrice}></Sideinfo>
             </div>
