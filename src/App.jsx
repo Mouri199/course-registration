@@ -9,7 +9,6 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-     <h1 className='container mx-auto mt-10 font-bold text-3xl '></h1>
      <Cards></Cards>
    
      
