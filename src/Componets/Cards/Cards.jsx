@@ -48,7 +48,7 @@ const Cards = () => {
             // Alert if remaining goes below 0
             toast.error("Remaining credit cannot be less than 0", {
                 position: "top-right",
-                autoClose: 3000,
+                autoClose: 2000,
                 hideProgressBar: false,
                 closeOnClick: true,
                 pauseOnHover: true,
@@ -58,7 +58,7 @@ const Cards = () => {
             // Alert if remaining is more than 20
             toast.error("Remaining credit cannot exceed 20", {
                 position: "top-right",
-                autoClose: 3000,
+                autoClose: 2000,
                 hideProgressBar: false,
                 closeOnClick: true,
                 pauseOnHover: true,
