@@ -11,7 +11,7 @@
     "id": "2",
     "image": "https://i.ibb.co/Q8KG98X/Rectangle-2-3.png",
     "title": "Introduction to Algorithms",
-    "description": "Algorithms are like the instructions that computers follow to solve problems.",
+    "description": "Algorithms are the beating heart of computer science and programming. They are step-by-step procedures.",
     "price": 25000,
     "credit": 2
   },
@@ -35,7 +35,7 @@
     "id": "5",
     "image": "https://i.ibb.co/5jy6tpz/Rectangle-2.png",
     "title": "Introduction to Python",
-    "description": "Introduction to Python is a beginner-friendly course that explores the Python programming language",
+    "description": "Python is a computer language that lets you tell your computer what to do. It's giving your computer a set of easy-to-follow instructions.",
     "price": 19000,
     "credit": 5
   },
@@ -43,7 +43,7 @@
     "id": "6",
     "image": "https://i.ibb.co/0rdGb5v/Rectangle-2-5.png",
     "title": "Software Engineering",
-    "description": "Software Engineering is a comprehensive course that delves into the principles, practices, and methodologies of developing high-quality software",
+    "description": "Software Engineering is a comprehensive course that delves into the principles, practices, of developing high-quality software",
     "price": 23000,
     "credit": 2
   },
@@ -59,7 +59,7 @@
     "id": "8",
     "image": "https://i.ibb.co/6RfKQyd/Rectangle-2-1.png",
     "title": "Database (MySQL)",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "MySQL is like a super organized and efficient filing cabinet for your computer. Instead of stacking papers randomly.",
     "price": 19000,
     "credit": 5
   },
@@ -67,7 +67,7 @@
     "id": "9",
     "image": "https://i.ibb.co/8YWm8wL/Rectangle-2-6.png",
     "title": "Problem-Solving Part",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "Problem-solving is like being a detective in the world of puzzles. It's all about finding solutions to challenges and answering questions. ",
     "price": 23000,
     "credit": 2
   }
