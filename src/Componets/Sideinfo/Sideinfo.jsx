@@ -15,9 +15,9 @@ const Sideinfo = ({ selectedCard,totalCredit,remaining,totalPrice}) => {
 
             ))}
             <hr className="w-11/12 mx-auto" />
-            <h2  className="ml-5 font-medium text-[#1C1B1B80] mb-3 mt-3">Total Credit Hour:{totalCredit}</h2>
+            <h2  className="ml-5 font-medium text-[#1C1B1B80] mb-3 mt-3">Total Credit Hour:{totalCredit} hr</h2>
             <hr className="w-11/12 mx-auto" />
-            <h2 className=" ml-5 font-semibold text-[#1C1B1B80] mb-3 mt-3" >Total Price:{totalPrice}</h2>
+            <h2 className=" ml-5 font-semibold text-[#1C1B1B80] mb-3 mt-3" >Total Price:{totalPrice} USD</h2>
         </div>
     );
 };

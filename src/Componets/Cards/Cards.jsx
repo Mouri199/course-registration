@@ -46,7 +46,7 @@ const Cards = () => {
         const totalRemaining = 20 - countCredit;
         if (totalRemaining < 0) {
             // Alert if remaining goes below 0
-            toast.error("Remaining credit cannot be less than 0", {
+            toast.error("You don't have enough credit.", {
                 position: "top-right",
                 autoClose: 2000,
                 hideProgressBar: false,
@@ -56,7 +56,7 @@ const Cards = () => {
             });
         } else if (totalRemaining > 20) {
             // Alert if remaining is more than 20
-            toast.error("Remaining credit cannot exceed 20", {
+            toast.error("You cannot added credit more than 20", {
                 position: "top-right",
                 autoClose: 2000,
                 hideProgressBar: false,
@@ -102,8 +102,8 @@ const Cards = () => {
                                 <h2 className="card-title">{card.title}</h2>
                                 <p>{card.description}</p>
                                 <div className="flex">
-                                    <img src="./dollar-sign 1.svg" alt="" /><p>Price:{card.price}</p>
-                                    <img src="./Frame.svg" alt="" /><p>Credit:{card.credit}</p>
+                                    <img src="./dollar-sign 1.svg" alt="" /><p>Price:{card.price} </p>
+                                    <img src="./Frame.svg" alt="" /><p>Credit:{card.credit} hr</p>
                                 </div>
                                 <button onClick={()=>handleSelectCard(card)} className="btn btn-primary">Select</button>
 
